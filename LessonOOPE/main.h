@@ -1,13 +1,5 @@
-#include "student.h"
+#include "iostream"
+#include "string"
 
 using namespace std;
 
-int main() {
-	Student st;
-	st.age = -15;
-
-	cout << st.convert() << endl;
-
-
-	return 0;
-}
